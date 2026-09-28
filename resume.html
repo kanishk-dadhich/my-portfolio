@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Kanishk Dadhich — Resume</title>
+<style>
+  @page { size: A4; margin: 14mm 14mm 12mm 14mm; }
+  * { box-sizing: border-box; }
+  body { font-family: "Helvetica Neue", Arial, "DejaVu Sans", sans-serif;
+         color: #2b2b2b; font-size: 10.2px; line-height: 1.42; margin: 0; }
+  .name { text-align: center; font-size: 25px; font-weight: 800; letter-spacing: .5px;
+          color: #1f3a5f; margin: 0 0 2px; }
+  .title-line { text-align: center; color: #1f3a5f; font-weight: 700; font-size: 11px; margin: 0 0 3px; }
+  .title-line .sep { color: #9aa7b4; font-weight: 400; }
+  .contact { text-align: center; color: #555; font-size: 9.2px; margin: 0 0 4px; }
+  h2 { color: #1f3a5f; font-size: 11.5px; font-weight: 800; text-transform: uppercase;
+       letter-spacing: .6px; margin: 12px 0 4px; padding-bottom: 3px;
+       border-bottom: 1.6px solid #1f3a5f; }
+  p { margin: 3px 0; }
+  .summary { margin: 3px 0 2px; text-align: justify; }
+  .skills b { color: #1f3a5f; }
+  .skills p { margin: 2px 0; }
+  .entry-head { display: flex; justify-content: space-between; align-items: baseline; margin-top: 7px; }
+  .entry-head .role { font-weight: 700; color: #1f3a5f; font-size: 10.6px; }
+  .entry-head .date { color: #444; font-style: italic; font-size: 9.4px; white-space: nowrap; }
+  .sub { font-style: italic; color: #555; margin: 0 0 2px; }
+  ul { margin: 2px 0 2px; padding-left: 16px; }
+  li { margin: 1.5px 0; }
+  .proj-title { font-weight: 700; color: #1f3a5f; margin: 7px 0 1px; font-size: 10.6px; }
+  .proj-title .tag { font-weight: 600; color: #3f7d54; font-size: 9px; }
+  a { color: #1f3a5f; text-decoration: none; }
+</style>
+</head>
+<body>
+
+  <div class="name">KANISHK DADHICH</div>
+  <div class="title-line">Penetration Tester <span class="sep">|</span> VAPT Analyst <span class="sep">|</span> Web Application Security</div>
+  <div class="contact">kanishkdadhich123@gmail.com &nbsp;|&nbsp; +91 90243 00832 &nbsp;|&nbsp; Udaipur, Rajasthan, India &nbsp;|&nbsp; LinkedIn: kanishk-dadhich &nbsp;|&nbsp; Medium: @kanishkdadhich123 &nbsp;|&nbsp; GitHub: kanishk-dadhich</div>
+
+  <h2>Professional Summary</h2>
+  <p class="summary">Final-year B.Tech Computer Science student and self-driven penetration tester with hands-on experience in web application security, API testing, and vulnerability assessment. Proficient in industry-standard tools including Burp Suite, Metasploit, Nmap, FFUF, and Kali Linux. Solid understanding of OWASP Top 10, the ATT&amp;CK framework, and offensive security methodologies. Demonstrated ability through competitive CTF rankings, bug bounty research, home-lab projects, published security research on Medium, and open-source security tools (one published to PyPI). Seeking an entry-level role in Penetration Testing, Red Teaming, or VAPT to apply and grow technical security skills in a professional environment.</p>
+
+  <h2>Technical Skills</h2>
+  <div class="skills">
+    <p><b>Offensive Security:</b> Web App Pentesting, API Security Testing (OWASP crAPI), OWASP Top 10, Vulnerability Assessment, Reconnaissance, Attack Surface Analysis, Privilege Escalation, Lateral Movement, Persistence Techniques</p>
+    <p><b>Tools &amp; Platforms:</b> Burp Suite, Nmap, Metasploit Framework, FFUF, Hydra, Gobuster, theHarvester, Wireshark, MITRE CALDERA, pfSense, Docker, Kali Linux</p>
+    <p><b>Programming:</b> Python (CLI tooling, automation, packaging/PyPI), Bash, Regex</p>
+    <p><b>Frameworks &amp; Methodologies:</b> MITRE ATT&amp;CK, OWASP Testing Guide, Bug Bounty Methodology, Network Enumeration</p>
+    <p><b>Networking:</b> Firewalls, NAT, VLANs, VPN, IDS/IPS, Packet Analysis, Traffic Management</p>
+  </div>
+
+  <h2>Experience &amp; Practical Work</h2>
+  <div class="entry-head"><span class="role">Bug Bounty Hunter</span><span class="date">2025 – Present</span></div>
+  <p class="sub">Self-Directed | Web Application &amp; API Security Research</p>
+  <ul>
+    <li>Conducted independent security assessments on web applications and REST APIs, targeting authentication bypass, broken access control, and input-validation flaws.</li>
+    <li>Identified and documented real-world vulnerabilities including IDOR, SSRF, and OWASP Top 10 issues through manual and automated testing.</li>
+    <li>Performed full-scope reconnaissance including subdomain enumeration, endpoint discovery, and parameter fuzzing using tools such as FFUF, Burp Suite, and Nmap.</li>
+    <li>Produced structured vulnerability reports with impact assessment, proof-of-concept steps, and remediation recommendations.</li>
+    <li>Published security research findings and write-ups on Medium covering real-world vulnerability discoveries, exploitation techniques, and defensive insights.</li>
+  </ul>
+
+  <div class="entry-head"><span class="role">CTF Competitor &amp; Lab Practitioner</span><span class="date"></span></div>
+  <p class="sub">TryHackMe Platform</p>
+  <ul>
+    <li>Achieved Top 3% ranking on TryHackMe through consistent challenge completion across web exploitation, privilege escalation, and network hacking modules.</li>
+    <li>Secured Top 30 placement in TryHackMe CTF competitions, solving real-world scenario-based challenges.</li>
+    <li>Developed hands-on expertise in exploit development, Linux/Windows post-exploitation, and enumeration techniques.</li>
+  </ul>
+
+  <h2>Projects</h2>
+
+  <div class="proj-title">wlkit (Wordlist Kit) — Open-Source Security Tool <span class="tag">· Published to PyPI (wordlist-kit) · MIT</span></div>
+  <ul>
+    <li>Designed, built, and published an all-in-one wordlist toolkit that unifies crunch-style generation, a faithful CUPP port, CeWL-style extraction, and hashcat/john-style rule templates with recon, OSINT profiling, and gobuster/FFUF/Hydra command assembly behind an interactive CLI.</li>
+    <li>Automated the full path from a target URL to a targeted wordlist to a ready-to-run attack — including login-form auto-detection and password-rule inference from OSINT — and released it to PyPI (<a href="https://pypi.org/project/wordlist-kit/">wordlist-kit</a>) with CI-based Trusted Publishing.</li>
+  </ul>
+
+  <div class="proj-title">Mass PII Finder — Open-Source Security Tool</div>
+  <ul>
+    <li>Built a Python tool that scans HTTP responses, files, and endpoints at scale to detect and classify exposed personally identifiable information such as emails, phone numbers, government IDs, and secrets.</li>
+    <li>Ranked findings by sensitivity to surface high-impact data-exposure leaks quickly, streamlining mass-PII discovery during bug bounty reconnaissance.</li>
+  </ul>
+
+  <div class="proj-title">Injx — Manual SQL Injection Testing CLI</div>
+  <ul>
+    <li>Developed an interactive Python CLI for deliberate, manual SQL injection testing that surfaces response status, size, timing, and database evidence for each request.</li>
+    <li>Compared every request against a pinned baseline and supported Burp import, keeping the tester focused on real signal during exploitation.</li>
+  </ul>
+
+  <div class="proj-title">Automated Adversary Emulation — MITRE CALDERA</div>
+  <ul>
+    <li>Deployed and configured MITRE CALDERA in a Linux lab environment to simulate real-world adversary TTPs (Tactics, Techniques, and Procedures).</li>
+    <li>Executed ATT&amp;CK-based operations covering privilege escalation, persistence, lateral movement, and credential access — mapping findings to the MITRE ATT&amp;CK framework.</li>
+    <li>Customized abilities and integrated agents to automate attack chains and validate defensive controls in an isolated environment.</li>
+  </ul>
+
+  <div class="proj-title">pfSense Home Lab — Network Security Environment</div>
+  <ul>
+    <li>Designed and deployed a virtualized network lab using pfSense to simulate enterprise-grade firewall and traffic-management scenarios.</li>
+    <li>Configured advanced features including firewall rules, NAT, VLANs, VPN tunnels, and intrusion detection (Snort/Suricata).</li>
+    <li>Used Wireshark and pfSense dashboards to perform live packet analysis and validate access-control policies.</li>
+  </ul>
+
+  <h2>Certifications &amp; Courses</h2>
+  <ul>
+    <li>API Penetration Testing — crAPI Course by Uncle Rat (Hands-on REST API Security &amp; OWASP API Top 10)</li>
+    <li>Web Application Penetration Testing &amp; Bug Bounty — Udemy (OWASP Top 10, recon, exploitation)</li>
+    <li>Networking &amp; Enumeration — Udemy (TCP/IP, port scanning, service enumeration)</li>
+  </ul>
+
+  <h2>Education</h2>
+  <div class="entry-head"><span class="role">Bachelor of Engineering — Computer Science</span><span class="date">Aug 2023 – Mar 2027</span></div>
+  <p class="sub">Geetanjali Institute of Technical Studies, Udaipur | Final Year | CGPA: 7.8 / 10</p>
+  <p><b>Relevant Coursework:</b> Information Security Systems, Networking, Web Development, Operating Systems</p>
+
+  <h2>Achievements &amp; Additional</h2>
+  <ul>
+    <li>Published an open-source security tool to PyPI (<b>wordlist-kit</b> / wlkit) — full recon-to-attack wordlist pipeline.</li>
+    <li>TryHackMe Top 3% global ranking — consistent performance across offensive security learning paths.</li>
+    <li>Hands-on experience with the MITRE ATT&amp;CK framework applied in lab-simulated red team operations.</li>
+    <li>Active bug bounty researcher with self-directed methodology and professional reporting practices.</li>
+    <li>Strong foundation in both offensive (pentesting, red team) and defensive (firewall, IDS) security concepts.</li>
+    <li>Active technical writer on Medium — publishes security research articles covering vulnerability findings, exploitation techniques, and cybersecurity insights.</li>
+  </ul>
+
+</body>
+</html>
